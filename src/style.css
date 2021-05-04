@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.timer {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    font-size: 30px;
+
+}
+
+.time_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    border: none;
+    font-size: 40px;
+    width: 65px;
+}
+
+.сolon {
+    font-size: 50px;
+}
+
+.btn {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#tabs .tab {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+
+.whiteborder {
+    border: 1px solid #707070;
+    border-bottom: 1px solid #fff;
+    border-radius: 3px 3px 0 0;
+}
+
+.tabcontent {
+    width: 600px;
+    border: 1px solid #707070;
+    position: relative;
+    top: -1px;
+    z-index: 1;
+    pad: 10px;
+    border-radius: 0 0 3px 3px;
+
+}
+
+.hide {
+    display: none;
+
+}
+
+.show {
+    display: block;
+}
